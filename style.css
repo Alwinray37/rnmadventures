@@ -1,0 +1,18 @@
+:root{
+    --primary: rgb(141, 52, 34);
+    --secondary: rgb(48, 103, 48);
+}
+*{
+    outline: red solid 1px;
+    outline: none;
+}
+.bg-primary{
+    background-color: var(--primary) !important;
+}
+.bg-secondary{
+    background-color: var(--secondary) !important;
+}
+#trips img{
+    height: 350px;
+    object-fit: cover;
+}
