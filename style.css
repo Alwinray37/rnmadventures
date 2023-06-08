@@ -1,10 +1,15 @@
 :root{
-    --primary: rgb(141, 52, 34);
-    --secondary: rgb(48, 103, 48);
+    --primary: #395144;
+    --secondary: #b85014;
+    --third: #4E6C50;
+    --fourth: #edebda;
 }
 *{
     outline: red solid 1px;
     outline: none;
+}
+body{
+    background-color: var(--fourth);
 }
 .bg-primary{
     background-color: var(--primary) !important;
@@ -12,7 +17,21 @@
 .bg-secondary{
     background-color: var(--secondary) !important;
 }
+
+#trips .card{
+    width: 350px;
+}
 #trips img{
     height: 350px;
     object-fit: cover;
+}
+.carousel-inner{
+    height: 500px;
+}
+.carousel-inner img{
+    height: 500px;
+    object-fit: cover;
+}
+footer a{
+    color: whitesmoke;
 }
