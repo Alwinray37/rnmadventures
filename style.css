@@ -11,10 +11,10 @@
 body{
     background-color: var(--fourth);
 }
-.bg-primary{
+.bg-first{
     background-color: var(--primary) !important;
 }
-.bg-secondary{
+.bg-two{
     background-color: var(--secondary) !important;
 }
 
