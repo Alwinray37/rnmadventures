@@ -12,10 +12,10 @@ body{
     background-color: var(--fourth);
 }
 .bg-first{
-    background-color: var(--primary) !important;
+    background-color: var(--primary);
 }
 .bg-two{
-    background-color: var(--secondary) !important;
+    background-color: var(--secondary);
 }
 
 #trips .card{
