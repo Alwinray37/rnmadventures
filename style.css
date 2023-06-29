@@ -1,8 +1,8 @@
 :root{
     --primary: #395144;
-    --secondary: #b85014;
+    --secondary: #b3693e;
     --third: #4E6C50;
-    --fourth: #edebda;
+    --fourth: rgb(222, 218, 215);
 }
 *{
     outline: red solid 1px;
@@ -17,13 +17,36 @@ body{
 .bg-two{
     background-color: var(--secondary);
 }
-
+#hero{
+    height: 100vh;
+    overflow: hidden;
+}
+#hero img{
+    object-fit: cover;
+    position: absolute;
+    bottom: -300px;
+}
 #trips .card{
     width: 350px;
 }
 #trips img{
     height: 350px;
     object-fit: cover;
+}
+#camping a, #travel a{
+    display: flex;
+    justify-content: center;
+}
+#camping img, #travel img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.card{
+    overflow: hidden;
+    padding: 0;
+    border: 0;
 }
 .carousel-inner{
     height: 500px;
@@ -34,4 +57,17 @@ body{
 }
 footer a{
     color: whitesmoke;
+}
+
+@media (max-width: 800px){
+    #hero{
+        height: auto;
+        overflow: hidden;
+    }
+    #hero img{
+        object-fit: cover;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
 }
